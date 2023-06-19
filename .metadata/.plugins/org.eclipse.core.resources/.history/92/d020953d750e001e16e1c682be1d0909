@@ -40,9 +40,10 @@
   <p style="text-decoration: line-through;">한국 ICT 인재개발원8(삭제표현)</p>
   <hr>
   
-  <!-- span 태그는 인라인 레벨이므로 style="text-align: center;" 소용없다. -->
-  <span style="text-align: center;">한국 ICT 인재개발원-1</span> 
-  <span>한국 ICT 인재개발원-2</span> 
+  <p>한국 ICT 인재개발원</p> 
+  <p>한국 ICT 인재개발원</p> 
+  <p>한국 ICT 인재개발원</p> 
+  <p>한국 ICT 인재개발원</p>
   <hr>
   
 </body>
