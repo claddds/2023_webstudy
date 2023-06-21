@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이미지 맵</title>
+</head>
+<body>
+	<!--  
+		이미지맵: 하나의 이미지 안에 여러개의 a링크를 설정하는 것
+		사각형, 원형 등의 영역 설정해서 a링크 설정
+	-->
+	<a href="https://www.daum.net" target="_blank">
+		<img alt="workplace.jpg" src="../images/workplace.jpg">
+	</a>
+</body>
+</html>
