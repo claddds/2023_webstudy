@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+</head>
+<body>
+	<h1>회원 가입을 환영합니다</h1>
+	<form action="ex03_test01.html">
+		<fieldset>
+			<legend>사용자 정보</legend>
+				<ul>
+					<li>
+						<p>아이디 <input type="text" name="id"></p>
+					</li>
+					<li>
+						<p>이메일 <input type="text" name="email"></p>
+					</li>
+					<li>
+						<p>비밀번호 <input type="text" name="passwd"></p>
+					</li>
+					<li>
+						<p>비밀번호 확인 <input type="text" name="passwd_re"></p>
+					</li>
+				</ul>
+		</fieldset>
+		<fieldset>
+			<legend>이벤트와 새로운 소식</legend>
+				<p>
+					<input type="radio" name="mail" value="1">메일 수신
+					<input type="radio" name="mail" value="2" checked>메일 수신 안 함
+				</p>
+		</fieldset>
+		<p>
+			<input type="submit" value="가입하기"> <input type="reset" value="취소">
+		</p>
+	</form>
+</body>
+</html>

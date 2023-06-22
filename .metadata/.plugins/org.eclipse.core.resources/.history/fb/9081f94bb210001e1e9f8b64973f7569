@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>배송정보</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>배송 정보</legend>
+			<p>
+					<label>이름 </label>
+						<input type="text" name="name">
+			</p>
+			<p>	
+				<label>배송 주소 </label>
+					<input type="text" name="addr">
+			</p>
+			<p>	
+				<label>이메일 </label>
+					<input type="text" name="email">
+			</p>
+			<p>		
+				<label>연락처 </label>
+					<input type="text" name="phone">
+			</p>
+			<p>		
+				<label for="delivery_date">배송 지정</label>
+					<input type="date" id="delivery_date" name = delivery_date">
+					(주문일로부터 최소 3일 이후)
+			</p>
+			<p>	
+				<label for="memo">메모</label>
+					<textarea id ="memo" cols="40" rows="4"></textarea>
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>

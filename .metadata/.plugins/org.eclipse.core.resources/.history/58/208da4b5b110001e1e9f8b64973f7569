@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>배송정보</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>배송 정보</legend>
+				<label>이름 </label>
+					<input type="text" name="name">
+				
+				<label>배송 주소 </label>
+					<input type="text" name="addr">
+				
+				<label>이메일 </label>
+					<input type="text" name="email">
+					
+				<label>연락처 </label>
+					<input type="text" name="phone">
+					
+				<label for="delivery_date">배송 지정</label>
+					<input type="date" id="delivery_date" name = delivery_date">
+				<label for="memo">메모</label>
+					<textarea id ="memo" cols="40" rows="4"></textarea>
+				</p>
+		</fieldset>
+	</form>
+</body>
+</html>
