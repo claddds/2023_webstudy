@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Math 객체</title>
+<script type="text/javascript">
+	/*
+		주요메서드
+		min, max, random, ceil, round, floor
+	*/
+	// min(...): 인자들 중 가장 작은 값
+	document.write(Math.min(1,-3,56,7,-8,342,63)+"<br>")	//-8
+	document.write(Math.min(1,-3,56,7,"-8",342,63)+"<br>")	//-8	
+	document.write(Math.min(1,-3,56,7,"hello",342,63)+"<br>")	// NaN
+	document.write("<hr>");
+	
+	// max(....): 인자들중 가장 큰 값
+	document.write(Math.max(1,-3,56,7,-8,342,63)+"<br>")	//342
+	document.write(Math.max(1,-3,56,7,-8,"342",63)+"<br>")	//342	
+	document.write(Math.max(1,-3,56,7,"hello",342,63)+"<br>")	// NaN
+	document.write("<hr>");
+	
+	// random(): 난 수 발생(0부터 1사이의 값이 소숫점이 붙어서 무작위로 출력)
+	document.write(Math.random()+"<br>");
+	document.write((Math.random()*9)+"<br>");	// 0-9까지(자바와 다름)
+	document.write("<hr>");
+	
+	// ceil: 올림(사이값에서 큰 정수)
+	document.write(Math.ceil(10.65)+"<br>");	// 11
+	document.write(Math.ceil(10.45)+"<br>");	// 11
+	document.write(Math.ceil(-10.65)+"<br>");	// -10
+	document.write(Math.ceil(-10.45)+"<br>");	// -10
+	document.write("<hr>");
+	
+	// floor: 내림(사이값에서 작은 정수)
+	document.write(Math.floor(10.65)+"<br>");	// 10
+	document.write(Math.floor(10.45)+"<br>");	// 10
+	document.write(Math.floor(-10.65)+"<br>");	// -11
+	document.write(Math.floor(-10.45)+"<br>");	// -11
+	document.write("<hr>");
+	
+	// trunc: 버림(소수점을 삭제)
+	document.write(Math.trunc(10.65)+"<br>");	// 10
+	document.write(Math.trunc(10.45)+"<br>");	// 10
+	document.write(Math.trunc(-10.65)+"<br>");	// -10
+	document.write(Math.trunc(-10.45)+"<br>");	// -10
+	document.write("<hr>");
+	
+	// round: 반올림
+	document.write(Math.round(10.65)+"<br>");	// 11
+	document.write(Math.round(10.45)+"<br>");	// 10
+	document.write(Math.round(-10.65)+"<br>");	// -11
+	document.write(Math.round(-10.45)+"<br>");	// -10
+	document.write("<hr>");
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>
